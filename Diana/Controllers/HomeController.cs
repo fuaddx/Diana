@@ -18,5 +18,6 @@ namespace Diana.Controllers
             var sliders = await _context.Sliders.ToListAsync();
             return View(sliders);
         }
+        
     }
 }
